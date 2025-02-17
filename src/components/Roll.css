@@ -1,3 +1,36 @@
 .container-Roll{
-    background-color: blue;
+    background-color: rgb(126, 49, 55);
+    height: 200vw;
+}
+
+.container-Titulo{
+    margin-left: 30vw;
+    
+}
+h2{
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(255, 250, 228);
+
+}
+
+.container-Sortear{
+    margin-left: 20vh;
+    margin-top: 18vh;
+    
+}
+.Botão{
+    height: 20vh;
+    width: 20vh;
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(126, 49, 55);
+
+}
+
+.container-Sorteados{
+    margin-left: 20vh;
+    margin-top: 25vh;
 }
