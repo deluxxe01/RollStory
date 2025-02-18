@@ -43,8 +43,16 @@ function Roll() {
 
     return (
         <div className="container-Roll">
-            <button onClick={sortear}>
-                <img src={imagem} alt="Imagem sorteada" />
+                 
+                <img src="Linha.png" className="Linha" />
+                <img className="Logo" src='Logo.png'/>
+
+                {/* <img src="Estrela.png" className="Estrela" /> */}
+
+                <img  className="ImagemSpam" src={imagem} />
+
+            <button className="Botão" onClick={sortear}>
+                SORTEAR
             </button>
 
             <div className="container-Sorteados">
@@ -53,6 +61,8 @@ function Roll() {
                     <img key={index} src={img} alt={`Imagem sorteada ${index}`} className="imagem" />
                 ))}
             </div>
+
+            <img src="Linha3.png" className="Linha2" />
         </div>
     );
 }
