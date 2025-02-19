@@ -56,7 +56,7 @@
     justify-content: center; /* Centraliza as imagens no eixo horizontal */
     align-items: center; /* Alinha as imagens no eixo vertical */
     /* gap: 1vh; Espaço entre as imagens */
-    margin-top: 10vh; /* Espaçamento entre o botão e as imagens */
+    margin-top: -20vh; /* Espaçamento entre o botão e as imagens */
     padding: 2vh; /* Adiciona padding interno para não colar as imagens na borda */
     width: 100%; /* Garante que o container ocupe toda a largura disponível */
     height: auto; /* Ajuste dinâmico da altura */
@@ -72,23 +72,80 @@
     
     width: 40vh;
     height: 35vh;
-    margin-top: -32.3vh;
-    margin-left: 163.2vh;
+    margin-top: -11.5vh;
+    margin-left: 166vh;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 7400px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Isso evita que padding e borda aumentem o tamanho dos elementos */
+    }
+    .container-Roll{
+        background-color: #F2D8E9;
+        width: 84vh;
+        height: 136vh;
+        border: 2px solid black;
+    }
+    .Botão{
+        width: 35vh;
+        height: 8vh;
+        margin-left: 25vh;
+        margin-top: 10vh;
+        border-radius: 2vh;
+        font-size:larger;
+        border: none;
+        background-color: #F21B2D;
+        color: #F2D8E9;
+        font-size: 4vh;
+     }
+    .Linha{
+        width: 25vh;
+        height: 25vh;
+        margin-top: 0%;
+         /* border: 2px solid black;  */
+    }
     .Logo{
-        width: 15vh;
-        height: 15vh;
-        border: 2px solid black; 
-        margin-top: 15vh;
-        margin-left: 15vh;
+        width: 30vh;
+        height: 20vh;
+        /* border: 2px solid black;  */
+        margin-top: 5vh;
+         margin-left: 5vh; 
+    }
+    .ImagemSpam {
+        width: 20vh;
+        height: 20vh;
+        margin-left: 30vh;
+        /* margin-bottom: 10vh; */
+        margin-top: 10vh;
+        /* border: 2px solid black; */
     }
 
-    .Linha{
-        width: 15vh;
-        height: 15vh;
-        margin-top: -10vh;
-         border: 2px solid black; 
+    .container-Sorteados {
+        display: flex;
+        flex-wrap: wrap; /* Permite que as imagens "quebrem" para a linha seguinte */
+        justify-content: center; /* Centraliza as imagens no eixo horizontal */
+        align-items: center; /* Alinha as imagens no eixo vertical */
+        /* gap: 1vh; Espaço entre as imagens */
+        margin-top: -50vh; /* Espaçamento entre o botão e as imagens */
+        padding: 2vh; /* Adiciona padding interno para não colar as imagens na borda */
+        width: 100%; /* Garante que o container ocupe toda a largura disponível */
+        height: auto; /* Ajuste dinâmico da altura */
+    }
+    .container-Sorteados img {
+        /* border: 2px solid black; */
+        width: 6vh; /* Tamanho das imagens sorteadas */
+        height: 6vh;
+        margin: 1vh; /* Espaçamento entre as imagens */
+       
+    }
+    .Linha2{
+    
+        width: 40vh;
+        height: 35vh;
+        margin-top: 26.3vh;
+        margin-left: 43.5vh;
     }
 }

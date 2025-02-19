@@ -54,6 +54,8 @@ function Roll() {
             <button className="Botão" onClick={sortear}>
                 SORTEAR
             </button>
+                
+                            <img src="Linha3.png" className="Linha2" />
 
             <div className="container-Sorteados">
                 {/* Exibe todas as imagens sorteadas */}
@@ -61,8 +63,6 @@ function Roll() {
                     <img key={index} src={img} alt={`Imagem sorteada ${index}`} className="imagem" />
                 ))}
             </div>
-
-            <img src="Linha3.png" className="Linha2" />
         </div>
     );
 }
